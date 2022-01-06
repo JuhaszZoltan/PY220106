@@ -1,18 +1,17 @@
-# n = 2
-# db = 0
-# while n < 100000000:
-#     n *= 2
-#     print(n)
-#     db += 1
+n = 1
+db = 0
+while n < 100000000:
+    n *= 2
+    print(n)
+    db += 1
 
-# print(f"a ciklus {db}-szer futott le")
-# print(f"és  a 2 27. hatánya az {pow(2, 27)}")
+print(f"a ciklus {db}-szer futott le")
+print(f"tehát a 2^{db}. hatványa {pow(2, 27)}")
 
 # i = 0
 # while True:
 #     print('Zolik' + i * 'a')
 #     i += 1
-#     if i == 10: break
 
 jelszo = 'pwd'
 probalkozas = 0
