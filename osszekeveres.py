@@ -1,7 +1,7 @@
 import random
 # 0 és 9 közötti véletlen számokkal, 10 elemű listát úgy, hogy ne legyen ismétlődés
 
-# 0. feltöltöm 0tól 9ig, és összekeverem
+print('---------------------')
 lista = []
 for n in range(10):
     lista.append(n)
@@ -13,6 +13,9 @@ for n in range(len(lista)):
     lista[x] = lista[y]
     lista[y] = s
 print(lista)
+
+
+
 print('---------------------')
 lista = []
 futasok_szama = 0
@@ -23,10 +26,14 @@ while len(lista) < 10:
     futasok_szama += 1
 print(lista)
 print(f'lefutások száma: {futasok_szama}')
-print('---------------------')
 
+
+
+print('---------------------')
 lista = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 random.shuffle(lista)
 print(lista)
+
+
 lista.sort()
 print(lista)
