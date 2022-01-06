@@ -12,13 +12,13 @@ while tipp != szam:
         print('nem, kisebbre gondoltam!')
     probalkozasok += 1
 
-print(f"grat nyetél! valóban a {szam}-ra gondoltam!")
+print(f"valóban a {szam}-ra gondoltam!")
 print(f"{probalkozasok} tippből sikerült kitalálnod")
 
+# while mint "számláló" ciklus
 i = 0
 while i < 10:
     print('jz')
     i += 1
 
-for i in range(10):
-    print('jz')
+for i in range(10): print('jz')
